@@ -1,0 +1,5 @@
+sudo chmod 222 /var/logs/archive
+cd /var/logs/archive
+tar xvzf backup.tar.gz
+sudo rm *.tmt
+grep -r -l 'user deleted'

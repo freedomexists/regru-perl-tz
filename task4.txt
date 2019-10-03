@@ -1,0 +1,4 @@
+SELECT name, dname
+FROM users as u
+LEFT JOIN domains as d ON u.user_id = d.user_id
+WHERE u.name = 'Иван Иванов';
